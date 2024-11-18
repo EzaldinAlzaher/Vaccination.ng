@@ -31,7 +31,7 @@ html {
 body {
   font-family: montserrat, Arial, Helvetica, sans-serif;
   background-image: url(/images/Bg_images.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -584,6 +584,8 @@ header{
 
 .sec-logos{
   text-align: center;
+  background-color: #fff;
+  width: 100vw;
 }
 
 .sec-logos img{
@@ -591,5 +593,102 @@ header{
   aspect-ratio: 3/2;
   object-fit: contain;
   margin: 0 0.5rem;
-  filter: grayscale(10);
+  opacity: 0.6;
+}
+
+.sec-database{
+  background: #C4C4C41A;
+  margin-top: 8.3rem;
+  border-radius: 2rem;
+}
+
+.container-form{
+  padding: 0 1.2rem 3rem;
+}
+
+.sec-database h3{
+  font-size: 1rem;
+  text-align: center;
+  background: #C4C4C40D;
+  padding: 1.5rem 0;
+  border-radius: 2rem 2rem 0 0;
+}
+
+.sec-database input:nth-child(1){
+  margin: 2rem 0;
+} 
+
+.sec-database button{
+  margin: 2rem 0 5rem;
+}
+
+.sec-database p{
+  color: var(--color-secondary);
+  text-align: center;
+  background-color: #C4C4C40D;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.vaccination-info h2{
+  font-weight: 700;
+  margin-top: 8rem;
+}
+
+.vaccination-info p{
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin: 1.7rem 0 4rem;
+}
+
+.immune-card{
+  width: 27.6rem;
+  height: 28rem;
+  background: #C4C4C433;
+  border-radius: 2rem 8rem 2rem 2rem;
+  padding: 2rem;
+}
+
+.immune-card h4{
+  color: var(--color-secondary);
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.immune-card p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 2rem 0 3rem;
+}
+
+.immune-card a{
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 4rem 0 2rem;
+}
+
+.immune-card-small{
+  width: 18.8rem;
+  height: 20.2rem;
+  border: 2.99px solid #FFFFFF80;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  margin: 3rem 0;
+}
+
+.immune-card-small h3{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 2rem 0 3rem;
+}
+
+.immune-card-small a{
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #FFFFFF80;
+  margin-bottom: 1rem;
 }
