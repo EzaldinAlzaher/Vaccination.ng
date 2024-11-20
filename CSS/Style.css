@@ -35,7 +35,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   /* padding: 4rem 3.4rem; */
 }
 
@@ -220,8 +220,10 @@ p {
 
 /* ---Footer--- */
 
-footer{
+footer {
   /* position: relative; */
+  padding-left: 3.3rem;
+  padding-bottom: 3rem;
 }
 
 .container-quote {
@@ -717,17 +719,17 @@ main section:nth-child(3) {
   background-color: #fff;
 }
 
-main section:nth-child(3) h2{
+main section:nth-child(3) h2 {
   color: #000;
   text-align: center;
   margin-bottom: 2rem;
 }
 
-.vaccine-image{
+.vaccine-image {
   text-align: center;
 }
 
-.vaccine-image div{
+.vaccine-image div {
   background-color: var(--color-primary);
   border-radius: 1.5rem;
   width: 28.9rem;
@@ -742,58 +744,58 @@ main section:nth-child(3) h2{
   height: 36.5rem;
 }
 
-.vaccine-image span img{
+.vaccine-image span img {
   width: 7.4rem;
   height: 7.2rem;
 }
 
-.vaccine-image span{
+.vaccine-image span {
   position: absolute;
   top: -2rem;
   left: -2rem;
 }
 
-.vaccine-image button{
+.vaccine-image button {
   position: absolute;
   z-index: 1;
   bottom: 5rem;
   left: 4rem;
 }
 
-.form-patient{
+.form-patient {
   margin: 3.8rem 0 0;
 }
 
-.form-patient h4{
+.form-patient h4 {
   color: var(--color-accent);
   font-weight: 700;
 }
 
-.form-patient p{
+.form-patient p {
   font-size: 1.4rem;
   font-weight: 500;
   color: #00000080;
   margin-top: 2rem;
 }
 
-.form-patient input{
+.form-patient input {
   margin: 2rem 0;
-  background-color: #0B153C26;
+  background-color: #0b153c26;
   font-size: 1.4rem;
   color: var(--color-accent);
 }
 
-.form-patient .btn-2xl{
+.form-patient .btn-2xl {
   margin: 6rem 0 2rem;
 }
 
-.form-patient label{
+.form-patient label {
   font-size: 1.4rem;
   font-weight: 600;
   color: #00000080;
 }
 
-.form-patient .btn-check{
+.form-patient .btn-check {
   font-weight: 700;
   font-size: 1.4rem;
   border: none;
@@ -801,65 +803,65 @@ main section:nth-child(3) h2{
   background-color: var(--color-heading);
 }
 
-.form-patient .valid-form{
+.form-patient .valid-form {
   text-align: center;
 }
 
-main section:nth-child(4){
+main section:nth-child(4) {
   width: 37.5rem;
 }
 
-.sec-symptoms{
+.sec-symptoms {
   text-align: center;
   margin: 2.5rem 4rem 3rem;
 }
 
-.sec-symptoms h3{
+.sec-symptoms h3 {
   font-size: 1.2rem;
   font-weight: 700;
 }
 
-.sec-symptoms h2{
+.sec-symptoms h2 {
   margin: 1rem 0;
 }
 
-.sec-symptoms span{
+.sec-symptoms span {
   color: var(--color-secondary);
 }
 
-.sec-symptoms p{
+.sec-symptoms p {
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.image-symptoms{
+.image-symptoms {
   text-align: center;
   position: relative;
 }
 
-.image-symptoms img{
+.image-symptoms img {
   width: 22.2rem;
   height: 16.7rem;
   /* margin-top: 2rem; */
 }
 
-.virus-types{
+.virus-types {
   /* position: relative; */
   display: flex;
   /* justify-content: center; */
   align-items: center;
 }
 
-.virus-types img{
+.virus-types img {
   width: 3.1rem;
   height: 3.1rem;
 }
 
-.virus-types span{
+.virus-types span {
   font-size: 0.8rem;
   color: var(--color-secondary);
   font-weight: 600;
-  background-color: #C4C4C433;
+  background-color: #c4c4c433;
   border-radius: 0.4rem;
   padding: 0.5rem 0.8rem;
   margin-right: 1rem;
@@ -868,73 +870,391 @@ main section:nth-child(4){
   right: 11.9rem; */
 }
 
-.v1{
+.v1 {
   position: absolute;
   bottom: 13rem;
   left: 6rem;
 }
 
-.v2{
+.v2 {
   position: absolute;
   bottom: 8.5rem;
   left: 3.5rem;
 }
 
-.v3{
+.v3 {
   position: absolute;
   bottom: 4rem;
   left: 1rem;
 }
 
-.v4{
+.v4 {
   position: absolute;
   bottom: 13rem;
   left: 22rem;
 }
 
-.v5{
+.v5 {
   position: absolute;
   bottom: 8.5rem;
   left: 23rem;
 }
 
-.v6{
+.v6 {
   position: absolute;
   bottom: 4rem;
   left: 27rem;
 }
 
-main section:nth-child(5){
+main section:nth-child(5) {
   background-color: var(--color-heading);
   padding: 3rem 3rem 12rem;
 }
 
-.feedback-info{
+.feedback-info {
   text-align: center;
 }
 
-.feedback-info h3{
+.feedback-info h3 {
   color: var(--color-secondary);
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.feedback-info h2{
+.feedback-info h2 {
   color: #000;
   margin: 2rem 0 1rem;
 }
 
-.feedback-info p{
+.feedback-info p {
   color: #00000080;
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
 }
 
-.cards-feed{
+.cards-feed {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   row-gap: 3rem;
+}
+
+/*? Tablet */
+
+@media screen and (min-width: 768px) {
+  header {
+    width: 768px;
+  }
+
+  .heading-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .body-header h3 {
+    font-size: 1.8rem;
+  }
+
+  .body-header h2 {
+    font-size: 3.6rem;
+  }
+
+  .body-header p {
+    font-size: 2rem;
+  }
+
+  .images-header > img {
+    width: 53.2rem;
+    height: 57.1rem;
+  }
+
+  .im-ps-1 {
+    transform: scale(2);
+    left: 5.5rem;
+    bottom: 26rem;
+  }
+
+  .im-ps-2 {
+    transform: scale(2);
+    left: 59rem;
+    bottom: 26rem;
+  }
+
+  .ims-ps-header {
+    transform: scale(1.4);
+    left: 6.5rem;
+    top: 53.5rem;
+  }
+
+  .bg-ic {
+    transform: scale(1.6);
+    margin-left: 1rem;
+  }
+
+  .addr-head-header h2 {
+    font-size: 2.4rem;
+    margin: 2rem 1rem;
+  }
+
+  .container-addr-header {
+    display: grid;
+    grid-template-columns: repeat(2, 100fr);
+    grid-template-rows: repeat(2, 100fr);
+    /* justify-items: center; */
+    align-items: center;
+  }
+
+  .fl-addr-header span {
+    transform: scale(1.6);
+    margin: 1rem 2rem;
+  }
+
+  .fl-addr-header h4,
+  .fl-addr-header p {
+    font-size: 2rem;
+  }
+
+  .container-addr-header .btn {
+    width: 25.3rem;
+    height: 6.4rem;
+    border-radius: 2rem;
+    margin-left: 1rem;
+  }
+
+  .sec-database h3 {
+    font-size: 2rem;
+  }
+
+  .sec-database {
+    width: 66.7rem;
+    height: 44.2rem;
+  }
+
+  .container-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-form input {
+    width: 44.7rem;
+    height: 6.9rem;
+    margin-top: 1rem;
+  }
+
+  .container-form button {
+    width: 17.2rem;
+    height: 6.4rem;
+    border-radius: 2rem;
+  }
+
+  .container-form p {
+    font-size: 1.4rem;
+  }
+
+  .vaccination-info h2 {
+    font-size: 3.6rem;
+  }
+
+  .vaccination-info p {
+    font-size: 2rem;
+  }
+
+  .immune-card {
+    width: 45rem;
+    height: 49rem;
+    border-radius: 5rem 15rem 5rem 5rem;
+    padding: 4rem;
+  }
+
+  .immune-card svg {
+    transform: scale(2);
+    margin: 3rem 0 3rem 3rem;
+  }
+
+  .immune-card h4 {
+    font-size: 2.4rem;
+    margin-top: 5rem;
+  }
+
+  .immune-card p,
+  .immune-card a {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+
+  .cards-small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+  }
+
+  .immune-card-small {
+    width: 29.5rem;
+    height: 29rem;
+    border-radius: 5rem;
+    padding: 4rem;
+  }
+
+  .immune-card-small svg {
+    transform: scale(1.6);
+  }
+
+  .immune-card-small h3 {
+    font-size: 2rem;
+    margin: 4rem 0;
+  }
+
+  .immune-card-small a {
+    font-size: 1.8rem;
+  }
+
+  main section:nth-child(2) {
+    width: 100%;
+  }
+
+  .sec2-heading {
+    font-size: 3.6rem;
+  }
+
+  .vaccine-image div {
+    width: 38rem;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vaccine-image img {
+    width: 38rem;
+    height: 48rem;
+    margin-top: 1.7rem;
+  }
+
+  .form-patient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-patient h4,
+  .form-patient p {
+    font-size: 2rem;
+  }
+
+  .form-patient .in-pr {
+    width: 65rem;
+    height: 7rem;
+    border-radius: 2rem;
+  }
+
+  .form-patient .in-sc {
+    width: 40rem;
+    height: 7rem;
+    border-radius: 2rem;
+  }
+
+  .form-patient button{
+    width: 20rem;
+    height: 7rem;
+    border-radius: 2rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+  }
+
+  .form-patient .btn-2xl{
+    width: 65rem;
+    height: 6.4rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+  }
+
+  .valid-form label{
+    font-size: 2rem;
+  }
+
+  .valid-form .btn-check{
+    font-size: 2rem;
+  }
+
+  main section:nth-child(4){
+   width: 768px;
+  }
+
+  .sec-symptoms h3{
+    font-size: 2rem;
+  }
+  
+  .sec-symptoms h2{
+    font-size: 3.6rem;
+  }
+
+  .sec-symptoms p{
+    font-size: 1.8rem;
+  }
+  
+  .image-symptoms > img{
+    width: 45rem;
+    height: 34rem;
+  }
+
+  .virus-types img{
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+
+  .virus-types span{
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .v1{
+    bottom: 22rem;
+    left: 8rem;
+  }
+
+  .v2{
+    bottom: 13rem;
+    left: 5rem;
+  }
+  
+  .v4{
+    bottom: 22rem;
+    left: 44rem;
+  }
+
+  .v5{
+    bottom: 13rem;
+    left: 45.5rem;
+  }
+
+  .v6{
+    bottom: 4rem;
+    left: 54rem;
+  }
+
+  .feedback-info h3{
+    font-size: 2rem;
+  }
+
+  .feedback-info h2{
+    font-size: 3.6rem;
+    margin: 3rem 0;
+  }
+
+  .feedback-info p{
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+  }
+  
+  .card{
+    transform: scale(1.3);
+    margin: 3rem 0;
+  }
 }
